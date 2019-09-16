@@ -124,6 +124,8 @@ public class MercuryTestDemo
   public void closeBrowser() 
   {
 	  driver.close();
+	  System.out.println("browser has closed ");
+	  
   }
 
 }
