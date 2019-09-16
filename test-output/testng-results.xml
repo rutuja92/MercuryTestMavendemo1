@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87174" started-at="2019-09-13T08:14:33Z" finished-at="2019-09-13T08:16:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87174" started-at="2019-09-13T08:14:33Z" finished-at="2019-09-13T08:16:01Z">
+      <class name="com.model.MercuryTestDemo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="openBrowser" is-config="true" duration-ms="73160" started-at="2019-09-13T08:13:20Z" finished-at="2019-09-13T08:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationURL()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="enterApplicationURL" is-config="true" duration-ms="6120" started-at="2019-09-13T08:14:33Z" finished-at="2019-09-13T08:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationURL -->
+        <test-method status="PASS" signature="maximizeBrowser()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="maximizeBrowser" is-config="true" duration-ms="4339" started-at="2019-09-13T08:14:40Z" finished-at="2019-09-13T08:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method status="PASS" signature="getAllcookies()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="getAllcookies" is-config="true" duration-ms="137" started-at="2019-09-13T08:14:44Z" finished-at="2019-09-13T08:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllcookies -->
+        <test-method status="PASS" signature="loginwithvalidds1()[pri:1, instance:com.model.MercuryTestDemo@61832929]" name="loginwithvalidds1" duration-ms="28436" started-at="2019-09-13T08:14:44Z" description="verify that valid user1 able to login into mercury tours application by using valid username and password" finished-at="2019-09-13T08:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidds1 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="captureScreenshot" is-config="true" duration-ms="1394" started-at="2019-09-13T08:15:13Z" finished-at="2019-09-13T08:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllcookies()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="getAllcookies" is-config="true" duration-ms="8" started-at="2019-09-13T08:15:14Z" finished-at="2019-09-13T08:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllcookies -->
+        <test-method status="PASS" signature="loginwithvalidds2()[pri:2, instance:com.model.MercuryTestDemo@61832929]" name="loginwithvalidds2" duration-ms="43379" started-at="2019-09-13T08:15:14Z" description="verify that valid user2 able to login into mercury tours application by using valid username and password" finished-at="2019-09-13T08:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidds2 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="captureScreenshot" is-config="true" duration-ms="347" started-at="2019-09-13T08:15:57Z" finished-at="2019-09-13T08:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllcookies()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="getAllcookies" is-config="true" duration-ms="11" started-at="2019-09-13T08:15:58Z" finished-at="2019-09-13T08:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllcookies -->
+        <test-method status="PASS" signature="loginwithinvalidds3()[pri:3, instance:com.model.MercuryTestDemo@61832929]" name="loginwithinvalidds3" duration-ms="2396" started-at="2019-09-13T08:15:58Z" description="verify that invalid user not able to login into mercury tours application by using valid username and password " finished-at="2019-09-13T08:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidds3 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="captureScreenshot" is-config="true" duration-ms="302" started-at="2019-09-13T08:16:00Z" finished-at="2019-09-13T08:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="deleteAllcookies()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="deleteAllcookies" is-config="true" duration-ms="240" started-at="2019-09-13T08:16:00Z" finished-at="2019-09-13T08:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllcookies -->
+        <test-method status="PASS" signature="dbConnectionClosed()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="dbConnectionClosed" is-config="true" duration-ms="1" started-at="2019-09-13T08:16:01Z" finished-at="2019-09-13T08:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClosed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.model.MercuryTestDemo@61832929]" name="closeBrowser" is-config="true" duration-ms="2754" started-at="2019-09-13T08:16:01Z" finished-at="2019-09-13T08:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.model.MercuryTestDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
