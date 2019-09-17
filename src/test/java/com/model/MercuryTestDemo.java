@@ -95,13 +95,13 @@ public class MercuryTestDemo
   public void deleteAllcookies() 
   {
 	  driver.manage().deleteAllCookies();
-	  System.out.println(delete all cookies);
+	  
   }
 
   @BeforeTest
   public void enterApplicationURL() 
   {
-	  System.out.println("In enterApplicationURL method under BeforeTest");
+	  
 	  driver.get("http://newtours.demoaut.com/mercurywelcome.php");
 	  		  }
   
@@ -126,7 +126,7 @@ public class MercuryTestDemo
   public void closeBrowser() 
   {
 	  driver.close();
-	  System.out.println("browser has closed ");
+	  
 	  
   }
 
