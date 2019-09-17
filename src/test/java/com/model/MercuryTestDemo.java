@@ -95,6 +95,7 @@ public class MercuryTestDemo
   public void deleteAllcookies() 
   {
 	  driver.manage().deleteAllCookies();
+	  System.out.println(delete all cookies);
   }
 
   @BeforeTest
@@ -109,6 +110,7 @@ public class MercuryTestDemo
   public void dbConnectionClosed() 
   {
 	  System.out.println("dbconncetion method under AfterTest");
+	  
   }
 
   @BeforeSuite
